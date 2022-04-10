@@ -1,32 +1,26 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/podcast">About</router-link>
-    </nav>
     <router-view/>
   </div>
 </template>
 
-<style>
+<style lang="css">
+:root {
+  --primary-color: #5689B3;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  font-size: 62.5%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
+a {
+  color: inherit;
+  text-decoration: inherit;
 }
 </style>

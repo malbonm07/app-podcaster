@@ -12,7 +12,6 @@ const routes = [
   },
   {
     path:'/podcast/:podcastId',
-    name: 'podcastDetails',
     component: () => import(/* webpackChunkName: "about" */ '../views/podcast/PodcastDetailsView.vue'),
     children: [
       {
