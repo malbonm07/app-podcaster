@@ -36,7 +36,7 @@ El sitio está desplegado con el servicio de Netlify. Una vez hecho el build se 
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter)
 
-html:
+###### html:
 <a href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter"><img src="https://www.netlify.com/img/deploy/button.svg"></a>
 
 
