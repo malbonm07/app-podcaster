@@ -1,5 +1,5 @@
 <template>
-    <img :src="imageUrl" alt="thumbnail" class="app-image">
+    <img :src="imageUrl" alt="thumbnail" class="app-image" @click="$emit('click')">
 </template>
 
 <script>

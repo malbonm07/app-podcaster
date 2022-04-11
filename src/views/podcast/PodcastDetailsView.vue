@@ -8,12 +8,13 @@
                         <AppImage
                             class="image" 
                             :img-url="podcast.artworkUrl600"
+                            @click="$router.push(`/podcast/${currentPodcast.trackId}`)"
                         ></AppImage>
                     </div>
                     <div class="podcast-sidebar__body">
                         <hr class="line">
-                        <h1>{{podcast.trackName || ''}}</h1>
-                        <p>by {{podcast.artistName || ''}}</p>
+                        <h1 @click="$router.push(`/podcast/${currentPodcast.trackId}`)">{{podcast.trackName || ''}}</h1>
+                        <p @click="$router.push(`/podcast/${currentPodcast.trackId}`)">by {{podcast.artistName || ''}}</p>
                     </div>
                     <div class="podcast-sidebar__footer">
                         <hr class="line">
@@ -106,6 +107,7 @@ export default {
             width: 200px;
             height: 200px;
             border-radius: 4px;
+            cursor: pointer;
         }
     }
     &__body {
@@ -118,12 +120,14 @@ export default {
             font-weight: bold;
             margin-bottom: 4px;
             padding-left: 8px;
+            cursor: pointer;
         }
         p {
             margin-top: 0px;
             font-style: italic;
             font-size: 1rem;
             padding-left: 8px;
+            cursor: pointer;
         }
     }
     &__footer {
