@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import {getPodcasts, getPodcast} from '@/services';
+import {config} from '@/utils/http';
 import {savePodcasts, savePodcastDetails} from '@/utils/helpers';
 const { parse } = require('rss-to-json');
 
@@ -39,14 +40,14 @@ export default new Vuex.Store({
     async GET_COLLECTION(context, url) {
       context.commit("SET_LOADER", true);
       context.commit("SET_COLLECTION", [])
-      return parse(url)
+      return parse(`https://cors-anywhere.herokuapp.com/${url}`, config)
       .then(response => {
         if(response) {
           context.commit("SET_COLLECTION", response.items)
           context.commit("SET_LOADER", false);
         }
       })
-      .catch((error) => console.error(`GET_COLLECTION error details: ${error}`));
+      .catch((error) => console.error(`GET_COLLECTION error details: Error parsing rss to json: ${error}`));
     },
     async GET_PODCAST(context, podcastId) {
       context.commit("SET_LOADER", true);

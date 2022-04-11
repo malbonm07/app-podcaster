@@ -162,7 +162,6 @@ export default {
     },
     mounted() {
         this.audio = this.$refs.audio
-        console.dir(this.audio)
     },
 }
 </script>
