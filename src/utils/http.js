@@ -1,5 +1,5 @@
 import axios from "axios";
-const origin = process.env.NODE_ENV === 'development' ? 'http://localhost' : 'https://silly-pavlova-4e32c6.netlify.app';
+const origin = process.env.NODE_ENV === 'development' ? 'http://localhost' : 'https://mini-podcaster.netlify.app/';
 
 
 export const config = {
