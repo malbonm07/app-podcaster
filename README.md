@@ -2,7 +2,8 @@
 Una aplicación mini podcast desarrollado con VueJS.
 
 ## Demo
-App [DEMO](https://silly-pavlova-4e32c6.netlify.app/)
+[DEMO](https://mini-podcaster.netlify.app/)
+El sitio está desplegado con el servicio de Netlify.
 
 ## Screenshots
 ![App Podcaster](https://i.imgur.com/M3LgGIZ.png)
