@@ -18,6 +18,8 @@
   max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
+  min-height: 100vh;
+  padding-bottom: 20px;
 }
 a {
   color: inherit;

@@ -2,5 +2,9 @@ import http from '@/utils/http';
 import api from '@/utils/api';
 
 export function getPodcasts() {
-    return http.get(api.podcasts)
+    return http.get(api.PODCASTS)
+}
+
+export function getPodcast(params) {
+    return http.get(api.PODCAST, {params})
 }

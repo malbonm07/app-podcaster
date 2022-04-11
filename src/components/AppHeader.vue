@@ -5,7 +5,7 @@
                 <h1 class="header-title__item">Podcaster</h1>
             </router-link>
             <router-link v-else to="/">
-                <span class="header-title__title">Podcaster</span>
+                <span class="header-title__item">Podcaster</span>
             </router-link>
         </div>
         <div class="header-loader">
@@ -36,7 +36,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .header {
     display: flex;
     justify-content: space-between;
@@ -47,6 +47,9 @@ export default {
         &__item {
             color: var(--primary-color);
             font-size: 1.2rem;
+            font-weight: bold;
+            margin: 12px 0px;
+            display: block;
         }
     }
     &-loader {
