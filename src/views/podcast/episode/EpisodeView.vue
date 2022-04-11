@@ -1,7 +1,7 @@
 <template>
     <div class="collection">
         <Card class="collection-header">
-            <h3>Episodes: {{collection.length}}</h3>
+            <h3>Episodes: {{listLoader ? 0 : collection.length}}</h3>
         </Card>
         <Card class="collection-body">
             <ul class="collection-body-list">
@@ -16,7 +16,7 @@
                         Duration
                     </div>
                 </li>
-                <li class="collection-body-list__item" v-for="(episode, i) in collection" :key="i" :class="(i + 1) % 2 == 0 ? 'even-class' : ''"
+                <li v-show="!listLoader" class="collection-body-list__item" v-for="(episode, i) in collection" :key="i" :class="(i + 1) % 2 == 0 ? 'even-class' : ''"
                 @click="$router.push(`/podcast/${currentPodcast.trackId}/episode/${i}`)">
                     <div class="title">
                         {{episode.title}}
@@ -45,7 +45,7 @@ export default {
         Card
     },
     computed: {
-        ...mapGetters(["collection", "currentPodcast"])
+        ...mapGetters(["collection", "currentPodcast", "listLoader"])
     },
     filters: {
         timeFormat(value) {

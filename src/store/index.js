@@ -47,7 +47,7 @@ export default new Vuex.Store({
           context.commit("SET_LOADER", false);
         }
       })
-      .catch((error) => console.error(`GET_COLLECTION error details: Error parsing rss to json: ${error}`));
+      .catch((error) => console.error(`Error parsing xml to json: ${error}`));
     },
     async GET_PODCAST(context, podcastId) {
       context.commit("SET_LOADER", true);
