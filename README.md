@@ -7,6 +7,7 @@ El sitio está desplegado con el servicio de Netlify.
 
 ## Screenshots
 ![App Podcaster](https://i.imgur.com/M3LgGIZ.png)
+![App Podcaster](https://i.imgur.com/MAHA5Qf.png?1)
 
 ## Tecnologías/frameworks usados
 <b>Desarrollado con:</b>
