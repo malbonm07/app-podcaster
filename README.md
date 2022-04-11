@@ -1,9 +1,11 @@
 # Mini Podcaster
 Una aplicación mini podcast desarrollado con VueJS.
+
 ## Demo
-App URL -> [DEMO here](https://i-want-to-play-a-game.netlify.app/)
+App [DEMO](https://silly-pavlova-4e32c6.netlify.app/)
+
 ## Screenshots
-![zuuvo game](https://i.imgur.com/6a7XdFE.png?1)
+![App Podcaster](https://i.imgur.com/M3LgGIZ.png)
 
 ## Tecnologías/frameworks usados
 <b>Desarrollado con:</b>
@@ -11,21 +13,19 @@ App URL -> [DEMO here](https://i-want-to-play-a-game.netlify.app/)
 - JavaScript
 - Html
 - CSS: Sass
-## Project setup
+
+## Proyecto setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compilación y hot-reloads para modo development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compilar y minimizar para modo production
 ```
 npm run build
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
 
