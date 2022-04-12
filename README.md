@@ -13,7 +13,7 @@ Enlace: https://cors-anywhere.herokuapp.com/corsdemo<br>
 ## Screenshots
 ![App Podcaster](https://i.imgur.com/M3LgGIZ.png)
 ![App Podcaster](https://i.imgur.com/MAHA5Qf.png?1)
-![App Podcaster](https://i.imgur.com/IJRLkNo.png?1)
+![App Podcaster](https://i.imgur.com/qxEQpqA.png?1)
 
 ## Tecnologías/frameworks usados
 <b>Desarrollado con:</b>
