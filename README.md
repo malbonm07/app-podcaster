@@ -1,6 +1,11 @@
 # Mini Podcaster
 Una aplicación mini podcast desarrollado con VueJS. Incluye 3 vistas, el home con la lista de podcasts, la vista de detalle del podcast seleccionado con su lista de episodios y la vista para el episodio en detalle.
 
+IMPORTANTE❗
+Para los problemas de cors decidí utilizar cors-anywhere, lamentablemente a partir de Enero 2021 el uso es limitado.
+Para desbloquear el acceso por limite presionar el botón "Request temporary access to the demo server" en la siguiente ruta como indica la documentación:
+[(cors-anywhere.herokuapp.com) will be very limited by January 2021, 31st] (https://cors-anywhere.herokuapp.com/corsdemo)
+
 ## Demo
 [DEMO](https://mini-podcaster.netlify.app/)
 
