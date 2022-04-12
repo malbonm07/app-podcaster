@@ -3,8 +3,9 @@ Una aplicación mini podcast desarrollado con VueJS. Incluye 3 vistas, el home c
 
 ## IMPORTANTE❗
 Para los problemas de cors decidí utilizar cors-anywhere, lamentablemente a partir de Enero 2021 el uso es limitado.
-Para desbloquear el acceso por limite presionar el botón "Request temporary access to the demo server" en la siguiente ruta como indica la documentación:
-[(cors-anywhere.herokuapp.com) will be very limited by January 2021, 31st] (https://cors-anywhere.herokuapp.com/corsdemo)
+Para desbloquear el acceso por limite presionar el botón "Request temporary access to the demo server" en el siguiente enlace como indica la documentación:<br>
+Enlace: https://cors-anywhere.herokuapp.com/corsdemo<br>
+[(cors-anywhere.herokuapp.com) will be very limited by January 2021, 31st]
 
 ## Demo
 [DEMO](https://mini-podcaster.netlify.app/)
@@ -12,6 +13,7 @@ Para desbloquear el acceso por limite presionar el botón "Request temporary acc
 ## Screenshots
 ![App Podcaster](https://i.imgur.com/M3LgGIZ.png)
 ![App Podcaster](https://i.imgur.com/MAHA5Qf.png?1)
+![App Podcaster](https://i.imgur.com/IJRLkNo.png?1)
 
 ## Tecnologías/frameworks usados
 <b>Desarrollado con:</b>
