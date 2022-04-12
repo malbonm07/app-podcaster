@@ -16,7 +16,7 @@
                         Duration
                     </div>
                 </li>
-                <li v-show="!listLoader" class="collection-body-list__item" v-for="(episode, i) in collection" :key="i" :class="(i + 1) % 2 == 0 ? 'even-class' : ''"
+                <li v-show="!listLoader" class="collection-body-list__item" v-for="(episode, i) in collection" :key="i" :class="(i + 1) % 2 == 0 ? 'bg-bluish-white' : ''"
                 @click="$router.push(`/podcast/${currentPodcast.trackId}/episode/${i}`)">
                     <div class="title">
                         {{episode.title}}
@@ -25,7 +25,7 @@
                         {{episode.published | timeFormat}}
                     </div>
                     <div class="duration">
-                        {{episode.itunes_duration | formatDuration}}
+                        {{episode.itunes_duration | formatDuration}}
                     </div>
                 </li>
             </ul>
@@ -122,7 +122,7 @@ export default {
     }
 }
 
-.even-class {
+.bg-bluish-white {
     background-color: #fff;
 }
 </style>

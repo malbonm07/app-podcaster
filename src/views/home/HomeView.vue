@@ -54,12 +54,7 @@ export default {
     }
   },
   mounted() {
-    if(isEmptyOrExpired()) {
-      this.GET_ALL_PODCASTS();
-    }
-    else {
-      this.GET_ALL_PODCASTS_FROM_LOCALSTORAGE();
-    }
+    isEmptyOrExpired() ? this.GET_ALL_PODCASTS() : this.GET_ALL_PODCASTS_FROM_LOCALSTORAGE();
   },
 }
 </script>

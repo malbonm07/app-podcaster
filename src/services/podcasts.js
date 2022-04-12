@@ -2,9 +2,9 @@ import http from '@/utils/http';
 import api from '@/utils/api';
 
 export function getPodcasts() {
-    return http.get(api.PODCASTS)
+    return http.get(`https://cors-anywhere.herokuapp.com/${api.PODCASTS}`)
 }
 
 export function getPodcast(params) {
-    return http.get(api.PODCAST, {params})
+    return http.get(`https://cors-anywhere.herokuapp.com/${api.PODCAST}`, {params})
 }

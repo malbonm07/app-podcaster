@@ -18,7 +18,7 @@
                     </div>
                     <div class="podcast-sidebar__footer">
                         <hr class="line">
-                        <p class="title">Description</p>
+                        <h2 class="title">Description</h2>
                         <p class="summary">{{podcast.summary ? podcast.summary.label : ''}}</p>
                     </div>
                 </Card>
